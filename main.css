@@ -46,7 +46,6 @@ body {
 
 .side {
     font-family: Helvetica;
-    font-size: 20px;
     margin-top: 100px;
     border-left: 1px solid black;
     padding-left: 50px;
@@ -54,8 +53,14 @@ body {
 }
 
 .side a {
+    position: relative;
     text-decoration: none;
     color: black;
+}
+
+.side a:active {
+    top: 2px;
+    pointer-events: 
 }
 
 .title {
