@@ -77,3 +77,37 @@ body {
     text-decoration: none;
     line-height: 80%;
 }
+
+.project {
+	color: #f2f2f2;
+}
+
+.project .title {
+	text-align: left;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.project .desc {
+	
+}
+
+table {
+	width: 90%;
+}
+
+td{
+	background-color: #5c5c5c;
+	width: 90%;
+	height: 30px;
+	padding: 3%;
+	margin: 5px;
+}
+
+td:hover {
+	background-color: #7c7c7c;
+}
+
+td a {
+	text-decoration: none;
+}
